@@ -1,0 +1,23 @@
+.container {
+	text-align: center;
+}
+
+big {
+	font-size: 21px;
+}
+
+p {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+body.error > .container {
+	display: none;
+}
+
+body.ok > .error {
+	display: none;
+}

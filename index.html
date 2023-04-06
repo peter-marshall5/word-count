@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Word Count</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="ok">
+		<div class="container" style="width: 200px;">
+			<div>
+				<big>There are</big>
+				<h1><b id="wordCount">(loading...)</b></h1>
+				<p>words on this page.</p>
+			</div>
+			<hr>
+			<p>&#9200; Reading time: <br/>
+			<b id="estTime">(loading...)</b> minute<span id="pluralMinutes">s</span></p>
+		</div>
+		<div class="error" style="width: 300px;">
+			<h2>An error occurred</h2>
+			<p>We could not get your word count.<br/>Please try reloading the page.</p>
+		</div>
+		<script src="popup.js"></script>
+	</body>
+</html>
